@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "workshop" {
-  bucket_prefix = "zeya-oidc-workshop-demo"
+  bucket_prefix = "zeya-state-bucket"
   tags = {
     Purpose = "github-actions-workshop"
   }
